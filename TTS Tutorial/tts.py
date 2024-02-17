@@ -3,10 +3,9 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
 CHUNK_SIZE = 1024
 xi_key = os.getenv('XI-KEY')
-voice_id = "zpnRoleXRhWcv8KmQc0N" 
+voice_id = "zpnRoleXRhWcv8KmQc0N"
 url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
 
 headers = {
